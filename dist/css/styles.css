@@ -1,10 +1,36 @@
 body {
-  background: purple; }
+  background: white; }
 
-h2 {
-  color: red; }
+.nav-container {
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 0; }
 
-h3 {
-  color: green; }
+.title {
+  display: inline-block;
+  font-family: sans-serif;
+  width: 19%;
+  color: #5631b2;
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: center;
+  cursor: pointer; }
+
+.jumbotron {
+  margin: 0;
+  padding: 0; }
+
+.jumbotron img {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=styles.css.map*/
