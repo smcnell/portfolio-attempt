@@ -1,9 +1,8 @@
 import $ from 'jquery'
 import Backbone from 'backbone'
 
-// import {createRadioTemplate} from './template-radio.js'
 import {createStartingTemplate} from './home-template.js'
-// import {Playlist1Collection, Playlist2Collection} from './_models.js'
+// import {createContactTemplate} from './contact-template.js'
 
 
 const AppRouter = Backbone.Router.extend({
@@ -13,42 +12,29 @@ const AppRouter = Backbone.Router.extend({
 	},
 
   routes: {
-	  'projects' : 'showProjects',
-		'projects/:id' : 'showOneProject',
-		'skills' : 'showSkillsPage',
-		'contact': 'showContactPage',
-		'' : 'showHomePage',
-
+	//   'projects' : 'showProjects',
+	// 	'projects/:id' : 'showOneProject',
+	// 	'skills' : 'showSkillsPage',
+	// 	'section1': 'showContactPage',
+		'' : 'showHomePage'
+	//
 	},
 
-// 	showContactPage: function(){
-// console.log("HELLO Contact PAGE!!!")
-// let infoContainerEl = document.querySelector('.information-container')
-//
-//
-// let playlist2RadioCollection= new Playlist2Collection()
-//
-// playlist2RadioCollection.fetch().then(function(serverRes){
-// 	let secondModelsList= playlist2RadioCollection.models
-// 	let bigHTMLStr= createRadioTemplate(secondModelsList, "Radio2")
-// 	document.querySelector(".information-container").innerHTML= bigHTMLStr
-//
-// })
-//
-// },
+	// showContactPage: function(){
+	// console.log("HELLO HOME PAGE!!!")
+	// let infoContainerEl = document.querySelector('.information-container')
+	//
+	// 		infoContainerEl.innerHTML =  createContactTemplate()
+	//
+	// },
 
 
 showHomePage: function(){
 console.log("HELLO HOME PAGE!!!")
 let infoContainerEl = document.querySelector('.information-container')
 
-
-
-// $.getJSON('http://www.bbc.co.uk/radio1/playlist.json').then(function(serverRes){
-// 		let introducingArray = serverRes.playlist.introducing
-		// console.log(introducingArray)
 		infoContainerEl.innerHTML =  createStartingTemplate()
-// })
+
 },
 
 

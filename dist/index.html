@@ -2,22 +2,24 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>App.js</title>
+		<title>Shannon McNellis Portfolio</title>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/styles.css"></link>
 
 	</head>
 	<body>
-		<div id= "app-container">
-			<ul class= "nav-container">
-				<li class="title"><a href="#" class="scroll-link" data-id="skills">Skills</a></li>
-				<li class="title"><a href="#" class="scroll-link" data-id="projects">Projects</a></li>
-				<li class="title"><a href="#" class="scroll-link" data-id="resume">Resume</a></li>
-				<li class="title"><a href="#" class="scroll-link" data-id="about">About Me</a></li>
-				<li class="title"><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
+		<nav class="navbar navbar-inverse navbar-fixed-top nav-container">
+			<ul class="nav navbar-nav mynav">
+				<li class="title"><a href="#skills" >Skills</a></li>
+				<li class="title"><a href="#" >Projects</a></li>
+				<li class="title"><a href="#" >Resume</a></li>
+				<li class="title"><a href="#contact">Contact</a></li>
+				<li class="title"><a href="#about" >About Me</a></li>
 
 			</ul>
-			<div class="information-container">
+		</nav>
+			<div class="information-container" data-spy="scroll" data-target=".navbar" data-offset="50">
 			</div>
 		</div>
 		<script src="./js/app.js"></script>
