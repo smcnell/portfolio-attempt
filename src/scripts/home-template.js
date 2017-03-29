@@ -8,8 +8,9 @@ export const createStartingTemplate = function(){
 	return `
 
 	<div id="starting" class="starting">
+
 		<div class="jumbotron birds-jumbo">
-			<img src="./shannonbird2copy.jpg" />
+			<img src="./looking.jpg" />
 		</div>
 		<div class="my-name">
 			<h1> Shannon McNellis </h1>
@@ -19,15 +20,19 @@ export const createStartingTemplate = function(){
 	<br/>
 
 	<div id="about" class="about-me">
-	<i><i><i><i><i></i></i></i></i></i>
 		<div class= "big-container">
-		<h1> About </h1>
+				<div class= "about-title-container">
+					<img src= "./ironspiral3.jpg"/>
+					<h1> About </h1>
+					<img src= "./ironspiralflipped3.jpg"/>
+				</div>
 			<div class= "about">
 				<img src ="./headshotcopy.jpg"/>
 				<p>Hi, I'm Shannon, and I'm a Front-End Engineer.  I am a recent graduate of The Iron Yard of Charleston, where my love for problem-solving and creating took shape in the form of coding for the first time.  I am a former Special Education teacher and will forever be inspired by individuality.</p>
 			</div>
 		</div>
 	</div>
+
 
 <div id="skills" class="skills">
 		<h1 class= "new-section-skills">Skills</h1>
@@ -37,7 +42,15 @@ export const createStartingTemplate = function(){
 		<div class= "front-end-skills my-skills">
 			<i class="html-icon fa fa-html5" aria-hidden="true"></i>
 			<h1> Front-End Development </h1>
-			<p> I write code using HTML5, CSS3 (SCSS), and JavaScript. For recent projects, I enjoy using React, jQuery, and Backbone.</p>
+			<ul>
+				<li> HTML5 </li>
+				<li> SCSS </li>
+				<li> Javascript </li>
+				<li> React </li>
+				<li> jQuery </li>
+				<li> Backbone </li>
+				<li> Bootstrap </li>
+			</ul>
 		</div>
 
 
@@ -52,6 +65,88 @@ export const createStartingTemplate = function(){
 
 		</div>
 	</div>
+
+
+
+<div id="projects" class="projects">
+	<div class="row">
+
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="./Iceland_home.png" alt="...">
+			<div class="caption">
+				<h3>Iceland API</h3>
+				<p>Summary: </p>
+				<p>Technologies: </p>
+				<p> Link: </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="./BBC_Radio.png" alt="...">
+			<div class="caption">
+				<h3>BBC Radio</h3>
+				<p>Summary: </p>
+				<p>Technologies: </p>
+				<p> Link: </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="./GitHub_home.png" alt="...">
+			<div class="caption">
+				<h3>GitHub Remake</h3>
+				<p>Summary: </p>
+				<p>Technologies: </p>
+				<p> Link: </p>
+			</div>
+		</div>
+	</div>
+
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="./Etsy_search.png" alt="...">
+	      <div class="caption">
+	        <h3>Etsy Remake</h3>
+					<p>Summary: </p>
+	        <p>Technologies: </p>
+					<p> Link: </p>
+	      </div>
+	    </div>
+	  </div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="./MegsList.png" alt="...">
+				<div class="caption">
+					<h3>Craigslist Remake</h3>
+					<p>Summary: </p>
+					<p>Technologies: </p>
+					<p> Link: </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img src="./thumbnail_Final.png" alt="...">
+				<div class="caption">
+					<h3>Charleston Planner</h3>
+					<p>Summary: </p>
+					<p>Technologies: </p>
+					<p> Link: </p>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
 
 
 	<div id="contact" class="contact">
