@@ -57,12 +57,23 @@ body {
   font-style: italic; }
 
 #skills {
-  color: black;
-  background-color: #e8e8e8}
+  background-color: #e8e8e8;
+  color: black; }
 
 .skills h1 {
   text-align: center;
   color: white; }
+
+.about-title-container {
+  text-align: center; }
+
+.about-title-container img {
+  width: 10%;
+  display: inline-block; }
+
+.about-title-container h1 {
+  width: 20%;
+  display: inline-block; }
 
 .triangles-jumbo img {
   border-top: 1px #412B97 solid; }
@@ -90,17 +101,14 @@ body {
   color: #fff; }
 
 .skills-container {
-  width: 100%;
-  background-color: #e8e8e8
-}
+  width: 100%; }
 
 .my-skills {
   vertical-align: top;
   text-align: center;
   margin-right: 20px;
   width: 45%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .my-skills h1 {
   text-align: left;
@@ -108,12 +116,6 @@ body {
 
 .my-skills p {
   text-align: left; }
-
-li {
-  text-align: left;
-  font-size: 18px;
-
-}
 
 .html-icon {
   text-align: center;
@@ -126,24 +128,6 @@ li {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px; }
-
-  .about-title-container {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .about-title-container h1 {
-    width: 20%;
-    display: inline-block;
-  }
-
-  .about-title-container img {
-    width: 10%;
-    display: inline-block;
-  }
-
-
 
 .about-me h1 {
   color: black;
@@ -180,6 +164,10 @@ li {
 
 .icon p {
   width: 70%; }
+
+.thumbnail {
+  max-width: 300px;
+  max-height: 400px; }
 
 @media screen and (min-width: 992px) {
   .title {

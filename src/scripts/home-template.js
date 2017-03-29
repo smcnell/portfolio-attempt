@@ -35,7 +35,11 @@ export const createStartingTemplate = function(){
 
 
 <div id="skills" class="skills">
-		<h1 class= "new-section-skills">Skills</h1>
+<div class= "about-title-container">
+	<img src= "./ironspiral3.jpg"/>
+	<h1> Skills </h1>
+	<img src= "./ironspiralflipped3.jpg"/>
+</div>
 
 	<div class= "skills-container">
 

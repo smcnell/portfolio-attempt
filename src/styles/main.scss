@@ -66,14 +66,27 @@ font-style: italic;
 }
 
 #skills {
-	background-color: black;
-	color: white;
+	background-color: #e8e8e8;
+	color: black;
 }
 .skills h1 {
 	text-align: center;
 	color: white;
 }
 
+.about-title-container {
+text-align: center;
+}
+
+.about-title-container img {
+	width: 10%;
+	display: inline-block;
+}
+
+.about-title-container h1 {
+	width: 20%;
+	display: inline-block;
+}
 
 
 .triangles-jumbo img {
@@ -191,6 +204,11 @@ margin-top: 0;
 
 .icon p {
 	width: 70%;
+}
+
+.thumbnail {
+	max-width: 300px;
+	max-height: 400px;
 }
 
 // @media screen and (min-width: 768px) {
