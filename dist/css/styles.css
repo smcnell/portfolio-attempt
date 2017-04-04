@@ -19,7 +19,7 @@ body {
 
 .title {
   display: inline-block;
-  width: 19%;
+  width: 25%;
   color: #5631b2;
   font-size: 20px;
   padding-left: 10px;
@@ -40,6 +40,7 @@ body {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   text-align: center;
   display: block; }
 
@@ -57,12 +58,20 @@ body {
   font-style: italic; }
 
 #skills {
-  background-color: #e8e8e8;
-  color: black; }
+  margin-top: 0;
+  padding-top: 0;
+  background-color: black;
+  color: #9d9d9d; }
 
 .skills h1 {
+  font-family: 'Trocchi', serif;
+  margin-top: 0;
   text-align: center;
   color: white; }
+
+li {
+  text-align: left;
+  font-size: 18px; }
 
 .about-title-container {
   text-align: center; }
@@ -72,11 +81,12 @@ body {
   display: inline-block; }
 
 .about-title-container h1 {
+  font-family: 'Trocchi', serif;
   width: 20%;
   display: inline-block; }
 
 .triangles-jumbo img {
-  border-top: 1px #412B97 solid; }
+  background-color: white; }
 
 .circle-jumbo {
   position: relative;
@@ -85,28 +95,35 @@ body {
 .my-contact {
   position: absolute;
   top: 35%;
-  left: 33%;
+  left: 40%;
   color: black;
   text-align: center; }
 
 .my-contact h1 {
+  font-family: 'Trocchi', serif;
   color: white;
   font-size: 30px; }
 
 .my-contact h2 {
-  color: black;
+  color: white;
   font-size: 25px; }
 
 .my-contact a {
   color: #fff; }
 
+.fa:hover {
+  color: black; }
+
 .skills-container {
+  margin-top: 0;
   width: 100%; }
 
 .my-skills {
+  margin-top: 0;
   vertical-align: top;
   text-align: center;
   margin-right: 20px;
+  margin-left: 40px;
   width: 45%;
   display: inline-block; }
 
@@ -119,7 +136,8 @@ body {
 
 .html-icon {
   text-align: center;
-  font-size: 50px; }
+  font-size: 50px;
+  color: black; }
 
 .about-me {
   vertical-align: top;
@@ -130,6 +148,7 @@ body {
   padding-bottom: 50px; }
 
 .about-me h1 {
+  font-family: 'Trocchi', serif;
   color: black;
   text-align: center; }
 
@@ -144,6 +163,7 @@ body {
   vertical-align: top;
   width: 30%;
   display: inline-block;
+  border: 0;
   border-radius: 50%; }
 
 .about p {
@@ -166,12 +186,11 @@ body {
   width: 70%; }
 
 .thumbnail {
-  max-width: 300px;
-  max-height: 400px; }
+  width: 400px;
+  height: 400px; }
 
-@media screen and (min-width: 992px) {
-  .title {
-    margin-bottom: 10px;
-    padding-top: 10px; } }
+.projects h1 {
+  text-align: center;
+  font-family: 'Trocchi', serif; }
 
 /*# sourceMappingURL=styles.css.map*/
