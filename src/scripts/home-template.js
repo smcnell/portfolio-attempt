@@ -24,7 +24,7 @@ export const createStartingTemplate = function(){
 
 <div id="skills" class="skills">
 <div class= "about-title-container">
-	<h1> Skills </h1>
+	<h1> </i> Skills </h1>
 </div>
 
 	<div class= "skills-container">
@@ -51,8 +51,9 @@ export const createStartingTemplate = function(){
 			</div>
 			<div class="jumbotron triangles-jumbo">
 			</div>
-
 		</div>
+
+		<p class="resume"> <a href="./McNellis_resume.pdf" target="_blank">Open Resume</a> </p>
 	</div>
 
 
@@ -60,48 +61,48 @@ export const createStartingTemplate = function(){
 <div id="projects" class="projects">
 <h1> Projects </h1>
 
-	<div class="row">
+	<div class="project-giant">
 
 
 
 
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
+	<div class="project-each-container">
+		<div class="pic-container">
 			<img src="./GitHub_home.png" alt="...">
+		</div>
 			<div class="caption">
 				<h3>GitHub Remake</h3>
-				<p>Using GitHub's public API, I created a clone of GitHub with a live search for profiles.</p>
-				<p>Technologies: </p>
-				<p> Link: </p>
+				<p>Using GitHub's public API, I created a clone of GitHub with a live search of active profiles.</p>
+				<p class= "tech">Technologies: Backbone - HTML5 - SCSS - AJAX - Node.js</p>
+				<p><a href="https://github.com/smcnell/assignment-19" target="_blank">link to project</a><p>
 			</div>
-		</div>
 	</div>
 
-	  <div class="col-sm-6 col-md-4">
-	    <div class="thumbnail">
+	<div class="project-each-container">
+		<div class="pic-container">
+			<img src="./thumbnail_Final.png" alt="...">
+		</div>
+			<div class="caption">
+				<h3>Charleston Planner</h3>
+				<p>A front-end/back-end collaboration where users have the ability to browse local events, search events by keyword, create new events, and save events to their accounts. </p>
+				<p class="tech">Technologies: React - Backbone - HTML5 - SCSS </p>
+				<p><a href="https://github.com/mackenzielewerke/CharlestonPlanner" target="_blank">link to project</a><p>
+			</div>
+	</div>
+
+	  <div class="project-each-container">
+	    <div class="pic-container">
 	      <img src="./Etsy_search.png" alt="...">
+			</div>
 	      <div class="caption">
 	        <h3>Etsy Remake</h3>
-					<p>Summary: </p>
-	        <p>Technologies: </p>
-					<p> Link: </p>
+					<p>In this clone of Etsy, I used Etsy's public API to display items for sale.  I used routing to go from a thumbnail to single view.  Users can search by keyword and view by listings by categories. </p>
+	        <p class="tech">Technologies: Backbone - HTML - SCSS -AJAX - jQuery - Node.js</p>
+					<p><a href="https://github.com/smcnell/assignment-21" target="_blank">link to project</a><p>
 	      </div>
-	    </div>
 	  </div>
 
 
-
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="./thumbnail_Final.png" alt="...">
-				<div class="caption">
-					<h3>Charleston Planner</h3>
-					<p>Summary: </p>
-					<p>Technologies: </p>
-					<p> Link: </p>
-				</div>
-			</div>
-		</div>
 
 
 
@@ -129,9 +130,9 @@ export const createStartingTemplate = function(){
 				<h1> Contact Information </h1>
 				<h2> Shannon McNellis </h2>
 				<h2> <a href="mailto:shannmcnelli@gmail.com?subject=Portfolio">shannmcnelli@gmail.com</a></h2>
-				<a class= "icon" href="https://github.com/smcnell"><i class="fa fa-github" aria-hidden="true"></i></a>
-				<a class= "icon" href="https://www.linkedin.com/in/shannon-mcnellis-291815138/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-				<a class= "icon" href="https://twitter.com/shannonmcnellis"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a class= "icon" href="https://github.com/smcnell" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a class= "icon" href="https://www.linkedin.com/in/shannon-mcnellis-291815138/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a class= "icon" href="https://twitter.com/shannonmcnellis" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 
 			</div>
 		</div>

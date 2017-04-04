@@ -20,7 +20,6 @@ body {
 .title {
   display: inline-block;
   width: 25%;
-  color: #5631b2;
   font-size: 20px;
   padding-left: 10px;
   text-align: center;
@@ -51,7 +50,8 @@ body {
   position: absolute;
   top: 30%;
   right: 60%;
-  color: white; }
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3); }
 
 .my-name h2 {
   color: black;
@@ -59,7 +59,7 @@ body {
 
 #skills {
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: black;
   color: #9d9d9d; }
@@ -69,6 +69,18 @@ body {
   margin-top: 0;
   text-align: center;
   color: white; }
+
+.resume {
+  text-align: center;
+  font-size: 20px; }
+
+.resume a {
+  text-decoration: none;
+  color: white; }
+
+.resume a:hover {
+  color: #9d9d9d;
+  cursor: pointer; }
 
 li {
   text-align: left;
@@ -125,7 +137,7 @@ li {
   text-align: center;
   margin-right: 20px;
   margin-left: 40px;
-  width: 45%;
+  width: 40%;
   display: inline-block; }
 
 .my-skills h1 {
@@ -186,16 +198,34 @@ li {
 .icon p {
   width: 70%; }
 
-.thumbnail {
-  width: 400px;
-  height: 400px; }
+.project-giant {
+  display: inline-block;
+  margin-left: 10%; }
 
-.thumbnail h3 {
+.project-each-container {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5%; }
+
+.pic-container img {
+  width: 80%;
+  vertical-align: top;
+  border: #4c0a0a solid 2px; }
+
+.caption h3 {
   color: #4c0a0a; }
+
+.caption a {
+  color: #4c0a0a; }
+
+.tech {
+  font-weight: bold; }
 
 #projects {
   padding-top: 20px;
-  background-color: #9d9d9d; }
+  background-color: #d3d3d3;
+  padding-bottom: 20px; }
 
 .projects h1 {
   text-align: center;
