@@ -60,6 +60,7 @@ body {
 #skills {
   margin-top: 0;
   padding-top: 0;
+  padding-bottom: 20px;
   background-color: black;
   color: #9d9d9d; }
 
@@ -189,8 +190,17 @@ li {
   width: 400px;
   height: 400px; }
 
+.thumbnail h3 {
+  color: #4c0a0a; }
+
+#projects {
+  padding-top: 20px;
+  background-color: #9d9d9d; }
+
 .projects h1 {
   text-align: center;
-  font-family: 'Trocchi', serif; }
+  font-family: 'Trocchi', serif;
+  color: black;
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map*/

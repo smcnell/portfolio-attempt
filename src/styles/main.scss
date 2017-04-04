@@ -72,8 +72,10 @@ font-style: italic;
 #skills {
 	margin-top: 0;
 	padding-top: 0;
+	padding-bottom: 20px;
 	background-color: black;
 	color: #9d9d9d;
+
 }
 .skills h1 {
 	font-family: 'Trocchi', serif;
@@ -242,17 +244,26 @@ margin-top: 0;
 	height: 400px;
 }
 
+.thumbnail h3 {
+	color: #4c0a0a;
+}
+
+
 // .thumbnail img {
 // 	border-radius: 50%;
 // }
 
-// #projects{
-// background-color: #e8e8e8;
-// }
+#projects{
+padding-top: 20px;
+background-color: #9d9d9d;
+
+}
 
 .projects h1 {
 	text-align: center;
 	font-family: 'Trocchi', serif;
+	color: black;
+	padding-bottom: 10px;
 
 
 

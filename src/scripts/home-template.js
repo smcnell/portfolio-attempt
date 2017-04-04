@@ -70,7 +70,7 @@ export const createStartingTemplate = function(){
 			<img src="./GitHub_home.png" alt="...">
 			<div class="caption">
 				<h3>GitHub Remake</h3>
-				<p>Using GitHub's public API,  </p>
+				<p>Using GitHub's public API, I created a clone of GitHub with a live search for profiles.</p>
 				<p>Technologies: </p>
 				<p> Link: </p>
 			</div>
@@ -89,17 +89,7 @@ export const createStartingTemplate = function(){
 	    </div>
 	  </div>
 
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="./MegsList.png" alt="...">
-				<div class="caption">
-					<h3>Craigslist Remake</h3>
-					<p>Summary: </p>
-					<p>Technologies: </p>
-					<p> Link: </p>
-				</div>
-			</div>
-		</div>
+
 
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
