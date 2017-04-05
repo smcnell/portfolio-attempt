@@ -7,7 +7,7 @@ export const createStartingTemplate = function(){
 
 	return `
 
-	<div id="starting" class="starting">
+	<div id="home" class="home">
 
 		<div class="jumbotron birds-jumbo">
 			<img src="./looking.jpg" />
@@ -29,6 +29,16 @@ export const createStartingTemplate = function(){
 
 	<div class= "skills-container">
 
+
+			<div class= "responsive-skills my-skills">
+			<i class="html-icon fa fa-mobile" aria-hidden="true"></i>
+				<h1> Responsive Web Development </h1>
+				<p> Mobile digital media time is higher than time spent on desktops, and the difference keeps growing.  Using frameworks such as Bootstrap, I use a mobile-first approach to ensure quality for all devices available now and for those to come.</p>
+
+			<div class="jumbotron triangles-jumbo">
+			</div>
+		</div>
+
 		<div class= "front-end-skills my-skills">
 			<i class="html-icon fa fa-html5" aria-hidden="true"></i>
 			<h1> Front-End Development </h1>
@@ -44,14 +54,19 @@ export const createStartingTemplate = function(){
 		</div>
 
 
-			<div class= "responsive-skills my-skills">
-			<i class="html-icon fa fa-mobile" aria-hidden="true"></i>
-				<h1> Responsive Web Development </h1>
-				<p> Mobile digital media time is higher than desktops, and the difference keeps growing.  Using frameworks such as Bootstrap, I use a mobile-first approach to ensure quality for all devices available now and for those to come.</p>
-			</div>
-			<div class="jumbotron triangles-jumbo">
-			</div>
+		<div class= "soft-skills my-skills">
+			<i class="html-icon fa fa-html5" aria-hidden="true"></i>
+			<h1> Other Skills </h1>
+			<ul>
+				<li> <span> Flexibility</span>- Working with students with unique needs, I have experience thinking outside-the-box and coming up with creative solutions for new problems.</li>
+				<li> <span> Management</span>- I am able to set clear expectations, deligate responsibilities, and organize a team under a specific goal. </li>
+				<li> <span> Organization</span>- From monitoring progress toward goals, to strictly adhering to legal timelines, you can rely on my organizational and time-management skills.</li>
+				<li> <span> Team Work</span>- In order to meet the needs of students, I worked closely and effectively communicated with other teachers, administration, and medical professionals.</li>
+				<li> <span> Self-Motivation</span>- I keep up-to-date on new methods and research by reading journals articles and attending hundreds of hours of additional professional development.</li>
+
+			</ul>
 		</div>
+	</div>
 
 		<p class="resume"> <a href="./McNellis_resume.pdf" target="_blank">Open Resume</a> </p>
 	</div>

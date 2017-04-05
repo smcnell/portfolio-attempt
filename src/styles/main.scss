@@ -21,9 +21,9 @@ body{
 
 .title {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	font-size: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -164,6 +164,7 @@ margin-top: 0;
 .skills-container {
 	margin-top: 0;
 	width: 100%;
+	margin-left: 10%;
 	// border-top: 2px solid #4c0a0a;
 }
 
@@ -171,12 +172,19 @@ margin-top: 0;
 	margin-top: 0;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 20px;
-	margin-left: 40px;
-	width: 40%;
+	width: 28%;
 	display: inline-block;
+	margin-right: 5%;
 }
 
+.front-end-skills {
+	width: 15%;
+}
+
+.soft-skills span {
+	font-weight: bold;
+	font-style: italic;
+}
 
 
 .my-skills h1 {
